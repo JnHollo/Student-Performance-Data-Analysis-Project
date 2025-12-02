@@ -1,0 +1,24 @@
+
+Call:
+glm(formula = passed ~ studytime + failures + absences + Medu + 
+    Fedu, family = binomial, data = train)
+
+Coefficients:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)  0.81083    0.55029   1.473    0.141    
+studytime   -0.04070    0.17535  -0.232    0.816    
+failures    -0.76954    0.19043  -4.041 5.32e-05 ***
+absences    -0.01994    0.01452  -1.373    0.170    
+Medu         0.17792    0.16339   1.089    0.276    
+Fedu        -0.02640    0.16805  -0.157    0.875    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 350.75  on 276  degrees of freedom
+Residual deviance: 323.52  on 271  degrees of freedom
+AIC: 335.52
+
+Number of Fisher Scoring iterations: 4
+
